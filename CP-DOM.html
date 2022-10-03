@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="CP-Dom.css">
+   <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .red{color: red;}
+    </style>
+   <title>shopping cart</title>
+
+</head>
+<body>
+    <h1>Shopping cart</h1>
+    <section class="cart">
+        <!--Element1-->
+        <div class="Element">
+            <button class="del-btn" type="button">X</button>
+           <img class="heart" src="coeur.png" height="10%">
+           
+            <img class="product" src="https://s.cdpn.io/3/dingo-dog-bones.jpg">
+            <span class="description">Dingo Dog Bones</span>
+            <button class="plus-btn" type="button">+</button>
+            <span class="qte">1</span>
+            <button class="soustr-btn">-</button>
+            <span class="P-U">20</span>
+            <span class="P-T">20</span>
+        </div>
+        <hr>
+         <!--Element2-->
+         <div class="Element">
+            <button class="del-btn" type="button">X</button>
+            <img class="heart" src="coeur.png" height="10%">
+            <img class="product" src="https://s.cdpn.io/3/large-NutroNaturalChoiceAdultLambMealandRiceDryDogFood.png">
+            <span class="description">Nutro™ Adult Lamb and Rice Dog Food</span>
+            <button class="plus-btn" type="button">+</button>
+            <span class="qte">1</span>
+            <button class="soustr-btn">-</button>
+            <span class="P-U">30</span>
+            <span class="P-T">30</span>
+        </div>
+        <hr>
+        <div id="Total">
+        <span id="T">Total:</span>
+        <span>50</span>
+        </div>
+        <hr>
+
+    </section>
+    <script src="JS-dom.js"></script>
+</body>
+</html>
