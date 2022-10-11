@@ -5,7 +5,7 @@ function UpdateTotalPrice(){
       sum += parseInt(price[i].innerHTML)
   }
   let PRIX_Total = document.getElementById('Total')
-  PRIX_Total.innerHTML = sum
+  PRIX_Total.innerHTML = sum}
 
 
 //delete-btn//
@@ -13,7 +13,7 @@ var del = document.getElementsByClassName('del-btn')
 //console.log(del)
 for (let i =0;i<del.length;i++){
    del[i].addEventListener('click',function(e){
-       e.target.parentElement.remove()}
+       e.target.parentElement.remove()})
       }
 
 
